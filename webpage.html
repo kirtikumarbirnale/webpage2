@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        body {}
+
+        /* section {
+            display: flex;
+            justify-content: space-evenly;
+            color: white;
+            
+        }
+        */
+        .nav a {
+            text-decoration: none;
+            padding: 30px;
+            color: white;
+            align-items: center;
+            font-size: large;
+        }
+
+        .hostit a {
+            color: #fff;
+            text-decoration: none;
+            font-size: large;
+
+        }
+
+
+        .fast {
+            align-items: start;
+            color: #fff;
+        }
+
+
+        .btn1 {
+            color: white;
+            border-radius: 5px;
+            width: 200px;
+            height: 50px;
+            background-color: skyblue;
+        }
+
+        .btn2 {
+            color: white;
+            border-radius: 5px;
+            width: 200px;
+            height: 50px;
+            background-color: orangered;
+        }
+
+        .btn1:hover {
+            border: 1px solid;
+            background: none;
+            color: skyblue;
+
+        }
+
+        .btn2:hover {
+            border: 1px solid;
+            background: none;
+            color: orangered;
+
+        }
+
+        .box {
+            display: flex;
+            justify-content: space-around;
+            color: white;
+            width: 300px;
+            height: 300px;
+            background-color: aqua;
+        }
+
+        .fast {
+            color: white;
+        }
+
+
+        .fast1 {
+            color: white;
+        }
+
+
+        .A1 {
+            background-color: black;
+            background-image: url(./slider-img.png);
+            background-repeat: no-repeat;
+            background-position: right;
+            height: 720px;
+        }
+
+        .A2 {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .fa {
+            color: #fff;
+            padding: 0px 20px;
+        }
+
+        .nav {
+            align-items: center;
+            padding: 20px 20px;
+        }
+
+        .hostit {
+            align-items: center;
+            padding: 20px 20px;
+
+        }
+
+        .para {
+            color: #fff;
+        }
+
+        .box1 {
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        .box2 {
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        .A3 {
+            padding: 200px 100px;
+        }
+
+        .Ourservices {
+            color: black;
+            text-align: center;
+        }
+
+        .grid {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+
+        }
+
+        .box11 {
+            height: 300px;
+            width: 400px;
+            border: 1px solid black;
+            box-shadow: 0px 0px 10px gray;
+            text-decoration: none;
+        }
+
+        .grid,
+        .box11 {
+            margin: 0px 30px;
+
+        }
+
+        .box11 img {
+            width: 100px;
+            height: 100px;
+            color: black;
+            padding-top: 20px;
+            border-radius: 100%;
+            text-decoration: none;
+        }
+
+        .text {
+            text-decoration: none;
+        }
+
+
+
+        .grid1 {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+
+
+        }
+
+        .box12 {
+            height: 300px;
+            width: 400px;
+            border: 1px solid black;
+            box-shadow: 0px 0px 10px gray;
+            text-decoration: none;
+        }
+
+        .grid1,
+        .box12 {
+            margin: 20px 30px;
+
+
+        }
+
+        .box12 img {
+            width: 100px;
+            height: 80px;
+            color: black;
+            padding-top: 20px;
+            border-radius: 50%;
+            text-decoration: none;
+        }
+
+        .text1 {
+            text-decoration: none;
+        }
+
+        .hover:hover {
+            background-color: orangered;
+            border: 0px;
+        }
+
+        .about {
+            /* background-image: url(./about-img.png);
+            background-repeat: no-repeat;
+            background-position: right; */
+            /* height: 620px;
+            width: 720px; */
+            display: flex;
+            justify-content: center;
+        }
+
+        .us {
+            margin: 80px 200px;
+
+            /* padding-left: 130px; */
+
+        }
+
+        .us3 {
+            height: 450px;
+            width: 500px;
+            /* align-items: right; */
+            /* padding-left:100px; */
+            /* margin: 0px 200px; */
+            padding-right: 70px;
+
+        }
+
+        .us .us3 {
+            padding: 200px;
+        }
+
+
+        .btn3 {
+            color: white;
+            border-radius: 5px;
+            width: 200px;
+            height: 50px;
+            background-color: orangered;
+        }
+
+
+        .btn3:hover {
+            border: 1px solid;
+            background: none;
+            color: orangered;
+
+        }
+
+
+        .info {
+            display: flex;
+            justify-content: center;
+            text-align: left;
+            background-color: blueviolet;
+            clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+        
+            height: 350px;
+            position: relative;
+            inline-size: 1;
+
+
+        }
+        .info{
+            
+        }
+
+        .btn4 {
+            color: white;
+            border-radius: 5px;
+            width: 200px;
+            height: 50px;
+            background-color: orangered;
+        }
+
+        .btn4:hover {
+            border: 1px solid;
+            background: none;
+            color: orangered;
+
+        }
+
+        .pricing {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+
+        }
+
+        .box21 {
+            height: 300px;
+            width: 400px;
+            border: 1px solid black;
+            box-shadow: 0px 0px 10px gray;
+            text-decoration: none;
+        }
+
+        .img1 {
+            width: 300px;
+            height: 250px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <section class="A1">
+        <section class="A2">
+            <div class="hostit">
+                <a href="">Hostit</a>
+            </div>
+            <div class="nav">
+                <a href="">Home</a>
+                <a href="#about">About</a>
+                <a href="">services</a>
+                <a href="">Pricing</a>
+                <a href="">Contact</a>
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <a href="">Call :+01 12345678990</a>
+
+            </div>
+
+        </section>
+        <section class="A3">
+            <div class="Fast">
+                <h1 class="fast1">Fast & Secure <br>
+                    Web Hosting
+                </h1>
+
+                <p class="para">Anything embarrassing hidden in the middle of text.
+                    <br>All the Lorem Ipsuanything embarrassing hidden in the middle of text. All the Lorem Ipsumm
+                </p>
+                <button class="btn1">Read More</button>
+                <button class="btn2">Contact us</button>
+            </div>
+            <div>
+
+            </div>
+        </section>
+    </section>
+    <section>
+        <div class="Ourservices">
+            <h1 class="">Our Services</h1>
+        </div>
+
+    </section>
+
+
+
+    <section class="grid">
+        <div class="box11">
+            <img class="hover" src="./fevicon.png" alt="">
+            <h1>Shared Hostingg</h1>
+            <p>Generators on the Internet tend to repeat <br>
+                predefined chunks as necessary</p>
+            <a href="" class="text">Read More
+                <i class="fa fa-arrow-right" style="color:aqua;" aria-hidden="true"></i>
+            </a>
+
+
+        </div>
+        <div class="box11">
+            <img class="hover" src="./fevicon.png" alt="">
+            <h1>Dedicated Hosting</h1>
+            <p>Generators on the Internet tend to repeat <br>
+                predefined chunks as necessary</p>
+            <a href="" class="text">Read More
+                <i class="fa fa-arrow-right" style="color:aqua;" ;aria-hidden="true"></i>
+            </a>
+
+
+        </div>
+        <div class="box11">
+            <img class="hover" src="./fevicon.png" alt="">
+            <h1>Cloud Hosting</h1>
+            <p>Generators on the Internet tend to repeat <br>
+                predefined chunks as necessary</p>
+            <a href="" class="text">Read More<i class="fa fa-arrow-right" style="color:aqua;" aria-hidden="true"></i>
+            </a>
+
+        </div>
+    </section>
+
+
+
+
+    <section class="grid1">
+        <div class="box12">
+            <img class="hover" src="./fevicon.png" alt="">
+            <h1>Shared Hostingg</h1>
+            <p>Generators on the Internet tend to repeat <br>
+                predefined chunks as necessary</p>
+            <a href="" class="text1">Read More
+                <i class="fa fa-arrow-right" style="color:aqua;" aria-hidden="true"></i>
+            </a>
+
+
+        </div>
+        <div class="box12">
+            <img class="hover" src="./fevicon.png" alt="">
+            <h1>Dedicated Hosting</h1>
+            <p>Generators on the Internet tend to repeat <br>
+                predefined chunks as necessary</p>
+            <a href="" class="text1">Read More
+                <i class="fa fa-arrow-right" style="color:aqua;" aria-hidden="true"></i>
+            </a>
+
+
+        </div>
+        <div class="box12">
+            <img class="hover" src="./fevicon.png" alt="">
+            <h1>Cloud Hosting</h1>
+            <p>Generators on the Internet tend to repeat <br>
+                predefined chunks as necessary</p>
+            <a href="" class="text1">Read More
+                <i class="fa fa-arrow-right" style="color:aqua;" aria-hidden="true"></i>
+            </a>
+
+        </div>
+    </section>
+
+
+
+    <section class="about" id="about">
+        <div class="us">
+            <h1>About Us </h1>
+            <p>Words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you
+                need to be sure there isn't anything
+                embarrassing hidden in the middle of text. All the Lorem Ipsum
+                generators on the Internet tend to repeat predefined chunks</p>
+            <button class="btn3">Read More</button>
+        </div>
+        <div class="us1">
+            <img class="us3" src="./about-img.png" alt="">
+        </div>
+    </section>
+
+    <section class="info">
+        <div  class="info1">
+
+        </div>
+
+        <div>
+            <img class="img1" src="./server-img.jpg" alt="">
+        </div>
+        <div class="info2">
+            <h1>Let us manage your server</h1>
+            <p>Internet. It uses a dictionary of over 200 Latin words, combined with a handful
+                of model sentence structures, to generate Lorem Ipsum which looks
+                reasonable. The generated Lorem Ipsum is therefore</p>
+            <button class="btn4">Read More</button>
+        </div>
+    </section>
+
+
+
+    <h1 style="text-align: center;">Our Pricing</h1>
+
+
+
+    <section class="pricing">
+        <div class="box21">
+            <h1>$ 49</h1>
+            <p>Startup <br>
+                2GB RAM <br>
+                20GB SSD Cloud Storage <br>
+                Weekly Backups <br>
+                DDoS Protection <br>
+                Full Root Access <br>
+                24/7/365 Tech Support
+            </p>
+        </div>
+        <div class="box21">
+            <h1>$ 49</h1>
+            <p>Startup <br>
+                2GB RAM <br>
+                20GB SSD Cloud Storage <br>
+                Weekly Backups <br>
+                DDoS Protection <br>
+                Full Root Access <br>
+                24/7/365 Tech Support
+            </p>
+        </div>
+        <div class="box21">
+            <h1>$ 49</h1>
+            <p>Startup <br>
+                2GB RAM <br>
+                20GB SSD Cloud Storage <br>
+                Weekly Backups <br>
+                DDoS Protection <br>
+                Full Root Access <br>
+                24/7/365 Tech Support
+            </p>
+        </div>
+
+    </section>
+
+
+
+
+    <section>
+        <h1 style="text-align: center; padding-top: 100px;"><b>Testimonial</b></h1>
+        <p style="text-align: center;"> Even slightly believable. If you are going to use a passage of Lorem Ipsum, you
+            need to</p>
+    </section>
+
+</body>
+
+</html>
